@@ -1,15 +1,9 @@
----
-title: Array.prototype.map
----
-## Array.prototype.map
+ `Array.map() ` loops through the array and creates a new array by calling the provided function on each of the elements.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/standard-objects/array/array-prototype-map/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+    var arr = [1, 2, 3, 4];
+    var newArray = arr.map(function(element) { return element * 2});
+    console.log(newArray); // [2, 4, 6, 8];
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Here's an interactive Scrimba screencast explaning how  `Array.map() ` works:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+<div style="position: relative; padding-bottom: 56.25%;"><iframe allowfullscreen="true" src="https://scrimba.com/cast/c2Lg3hB.embed" style="border: 0px; position: absolute; width: 100%; height: 100%;"></iframe></div>
