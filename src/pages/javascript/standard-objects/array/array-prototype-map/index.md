@@ -1,8 +1,10 @@
- `Array.map() ` loops through the array and creates a new array by calling the provided function on each of the elements.
+The `.map()` method loops through the given array and executes the provided function on each element. It returns a new array which contains the results of the function call on each element.
 
+```js
     var arr = [1, 2, 3, 4];
     var newArray = arr.map(function(element) { return element * 2});
-    console.log(newArray); // [2, 4, 6, 8];
+    console.log(newArray); // [2, 4, 6, 8];
+```
 
 Here's an interactive Scrimba screencast explaning how  `Array.map() ` works:
 
